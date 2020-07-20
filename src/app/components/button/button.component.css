@@ -1,0 +1,28 @@
+button {
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fa4d73;
+  border: none;
+  font-size: 1.1em;
+  color: #fff;
+  cursor: pointer;
+  transition-duration: 0.5ms;
+  min-width: 150px;
+  transition: background-color 1s;
+}
+
+button:hover {
+  background-color: #fa5b70;
+  transition: background-color 1s;
+}
+
+button:disabled,
+button[disable] {
+  cursor: inherit;
+  opacity: 0.5;
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
+}

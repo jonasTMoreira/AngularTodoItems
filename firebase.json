@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "Todos",
+      "public": "dist/Todos",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

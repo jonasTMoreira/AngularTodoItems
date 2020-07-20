@@ -1,0 +1,10 @@
+<button [disabled]="disabled" class="loginBtn loginBtn--google">
+  <i *ngIf="loading" class="fa fa-spin fa-spinner"></i>
+  <ng-content *ngIf="!loading"></ng-content>
+</button>
+
+<!-- <button [disabled]="disabled" class="loginBtn loginBtn--facebook">
+  <i *ngIf="loading" class="fa fa-spin fa-spinner"></i>
+  Login with Facebook
+  <ng-content *ngIf="!loading"></ng-content>
+</button> -->
